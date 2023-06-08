@@ -1,32 +1,10 @@
-# Работа с проектом в IntelliJ IDEA
+# PhoneBook
 
-## Запуск тестов локально
+The program works like a phone book:
 
-Запуск на вашем компьютере перед отправкой в репозиторий
+* If we enter a new name, the program asks for a phone number and remembers it.
+* If the new phone number - asks for a name and also remembers.
+* If we enter an existing name or phone number, the program displays the phone(s) or the name of the subscriber, respectively.
+* При вводе команды LIST программа печатает в консоль список всех абонентов в алфавитном порядке с номерами.
 
-### Используя интерфейс
-
-- Вызовите контекстное меню папки `test/java`
-правой клавишей мыши.
-- Выберите пункт `Run 'All Tests'`
-
-![Запуск тестов](https://i.imgur.com/30te74l.png)
-
-### Используя горячие клавиши
-
-Запуск всех тестов `Ctrl+Shift+F10` / `⌃⇧R`
-
-*Также вы можете запустить дебаг для анализа и поиска причины*
-
-## Запуск проверки codestyle
-
-- Запустите плагин checkstyle:
-
-### Используя интерфейс
-
-![Запуск проверки стиля кода](https://i.imgur.com/jxgn4In.png)
-
-В результате получите отчет. Если ошибки будут найдены, посмотреть их список и описание
-сможете в разделе
-
-![](https://i.imgur.com/vyl2YnF.png)
+![](src/main/resources/image.png)
